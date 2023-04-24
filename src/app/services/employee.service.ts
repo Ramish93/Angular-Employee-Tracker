@@ -12,7 +12,7 @@ export class EmployeeService {
   addEmployee(data: Employee): Observable<Employee> {
     return this._http.post('http://localhost:3000/employees', data);
   }
-  getEmployeeList(): Observable<Employee> {
+  getEmployeeList(): Observable<any> {
     return this._http.get('http://localhost:3000/employees');
   }
 }
