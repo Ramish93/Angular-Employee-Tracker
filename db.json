@@ -16,5 +16,17 @@
   "profile": {
     "name": "typicode"
   },
-  "employees": []
+  "employees": [
+    {
+      "firstName": "asd",
+      "lastName": "asdf",
+      "email": "sdf",
+      "dob": "2023-04-11T22:00:00.000Z",
+      "gender": "",
+      "education": "Bachelors",
+      "company": "asdf",
+      "experience": 23,
+      "id": 1
+    }
+  ]
 }
