@@ -18,37 +18,37 @@
   },
   "employees": [
     {
-      "firstName": "test",
-      "lastName": "test",
-      "email": "test",
-      "dob": "1990-04-04T22:00:00.000Z",
-      "gender": "",
-      "education": "Diploma",
-      "company": "test",
-      "experience": 1,
-      "id": 2
-    },
-    {
-      "firstName": "test2",
-      "lastName": "test2",
-      "email": "test2@test2.test2",
-      "dob": "2023-04-02T22:00:00.000Z",
-      "gender": "",
+      "firstName": "ramish",
+      "lastName": "hassan",
+      "email": "ramish@gmail.com",
+      "dob": "2023-04-03T22:00:00.000Z",
+      "gender": "male",
       "education": "Bachelors",
-      "company": "test2",
-      "experience": 2,
-      "id": 3
+      "company": "salt",
+      "experience": 3,
+      "id": 5
     },
     {
-      "firstName": "final",
-      "lastName": "user",
-      "email": "final@sdjf.com",
-      "dob": "2023-04-10T22:00:00.000Z",
-      "gender": "other",
-      "education": "Post Graduate",
-      "company": "asdf",
-      "experience": 2,
-      "id": 4
+      "firstName": "ram",
+      "lastName": "ish",
+      "email": "rami@gmail.com",
+      "dob": "2023-04-02T22:00:00.000Z",
+      "gender": "male",
+      "education": "Bachelors",
+      "company": "Salt",
+      "experience": 3,
+      "id": 6
+    },
+    {
+      "firstName": "rafy",
+      "lastName": "nasir",
+      "email": "rafe@fmail.com",
+      "dob": "2023-04-03T22:00:00.000Z",
+      "gender": "male",
+      "education": "Masters",
+      "company": "H&M",
+      "experience": 3,
+      "id": 7
     }
   ]
 }

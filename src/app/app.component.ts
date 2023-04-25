@@ -6,6 +6,7 @@ import { ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
+import { Employee } from 'src/types/Employee';
 
 @Component({
   selector: 'app-root',
@@ -80,5 +81,9 @@ export class AppComponent implements OnInit {
         console.error(err);
       },
     });
+  }
+
+  editEmpForm(data: Employee) {
+    const dialogRef = this._dialog.open(EmpAddEditComponent, { data: data });
   }
 }

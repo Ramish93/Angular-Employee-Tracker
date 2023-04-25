@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { EmployeeService } from '../services/employee.service';
-import { MatDialogRef } from '@angular/material/dialog';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { Employee } from 'src/types/Employee';
 
 @Component({
   selector: 'app-emp-add-edit',
@@ -22,7 +23,8 @@ export class EmpAddEditComponent {
   constructor(
     private _fb: FormBuilder,
     private _empService: EmployeeService,
-    private _dialogRef: MatDialogRef<EmpAddEditComponent>
+    private _dialogRef: MatDialogRef<EmpAddEditComponent>,
+    @Inject(MAT_DIALOG_DATA) private data: Employee
   ) {
     this.empForm = this._fb.group({
       firstName: '',
