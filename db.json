@@ -46,9 +46,20 @@
       "dob": "2023-04-03T22:00:00.000Z",
       "gender": "male",
       "education": "Masters",
-      "company": "H&M",
+      "company": "H&Mmm",
       "experience": 3,
       "id": 7
+    },
+    {
+      "firstName": "ramasdfsd",
+      "lastName": "ish",
+      "email": "rami@gmail.com",
+      "dob": "2023-04-02T22:00:00.000Z",
+      "gender": "male",
+      "education": "Bachelors",
+      "company": "Salt salt",
+      "experience": 3,
+      "id": 9
     }
   ]
 }

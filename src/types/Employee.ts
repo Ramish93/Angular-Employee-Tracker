@@ -7,4 +7,5 @@ export interface Employee {
   education?: string;
   company?: string;
   experience?: number;
+  id: number;
 }
