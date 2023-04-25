@@ -60,6 +60,17 @@
       "company": "Salt salt",
       "experience": 3,
       "id": 9
+    },
+    {
+      "firstName": "marcus",
+      "lastName": "råndall",
+      "email": "mar@gmail.com",
+      "dob": "1983-04-03T22:00:00.000Z",
+      "gender": "male",
+      "education": "Masters",
+      "company": "salt",
+      "experience": 15,
+      "id": 10
     }
   ]
 }
